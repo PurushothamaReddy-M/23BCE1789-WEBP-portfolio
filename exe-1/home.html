@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page – 23BCE1789</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            color: #0c0c0c;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: blue;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        .alphabet {
+            display: inline-block;
+            margin: 5px;
+        }
+
+        .a { font-size: 16px; font-family: 'Courier New'; color: red; }
+        .b { font-size: 20px; font-family: 'Arial'; color: green; }
+        .c { font-size: 24px; font-family: 'Georgia'; color: purple; }
+        .d { font-size: 28px; font-family: 'Times New Roman'; color: orange; }
+        .e { font-size: 32px; font-family: 'Comic Sans MS'; color: brown; }
+        .f { font-size: 36px; font-family: 'Impact'; color: pink; }
+
+        .ambition {
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .hobbies {
+            font-style: italic;
+            font-weight: bold;
+            color: black;
+        }
+
+        pre {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        marquee {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+            padding: 10px;
+        }
+
+        #passport-img {
+            float: right;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+
+        .content-div {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .content-div p {
+            width: 45%;
+        }
+
+        #scroll-link {
+            position: fixed;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            background-color: #000;
+            border-radius: 5px;
+        }
+
+        progress, meter {
+            width: 50%;
+            height: 20px;
+            margin: 10px 0;
+        }
+
+        acronym {
+            border-bottom: 1px dotted;
+            cursor: help;
+        }
+
+        .greeting-link {
+            font-size: 18px;
+            color: #000;
+            text-decoration: none;
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Purushothama Reddy M</h1>
+
+    <div class="alphabet a">A</div>
+    <div class="alphabet b">B</div>
+    <div class="alphabet c">C</div>
+    <div class="alphabet d">D</div>
+    <div class="alphabet e">E</div>
+    <div class="alphabet f">F</div>
+
+    <p><strong>Machupalli</strong></p>
+    <p><em>Purushothama</em></p>
+    <p><u>Reddy</u></p>
+
+    <div class="content-div">
+        <div>
+            <p class="ambition">
+                My ambition is to work in game development. I want to design engaging gameplay mechanics and collaborate with a talented team to bring stories and experiences to life.
+            </p>
+        </div>
+        <div>
+            <p class="hobbies">
+                I enjoy coding and exploring new programming languages to broaden my skills. In my free time, I like cycling, exploring nature, and working on creative side projects.            
+            </p>
+        </div>
+    </div>
+
+    <details>
+        <summary>More about my ambition:</summary>
+        <p>
+            I aim to work in game development, designing engaging mechanics and collaborating with a talented team to create immersive experiences.        
+        </p>
+    </details>
+
+    <details>
+        <summary>More about my hobbies:</summary>
+        <p>
+            I love coding and learning new programming languages to enhance my skills. In my spare time, I enjoy cycling, connecting with nature, and tackling creative side projects.        
+        </p>
+    </details>
+
+    <p>(a-b)<sup>2</sup> = a<sup>2</sup> - 2ab + b<sup>2</sup></p>
+    <p>2H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O</p>
+
+    <pre>
+#include <stdio.h>
+
+int main() {
+    printf("Account Number: 23BCE1789\n");
+    printf("Balance: ₹10000\n");
+    return 0;
+}
+    </pre>
+
+    <marquee>23BCE1760</marquee>
+
+    <img id="passport-img" src="profile.jpg" alt="Passport Photo">
+
+    <a href="greeting.html" class="greeting-link">Click here for the E-Greeting</a>
+
+    <p><acronym title="Cascading Style Sheets">CSS</acronym> is used to style the layout and appearance of web pages.</p>
+
+    <div>
+        <div>
+            <p>Progress Bar</p>
+            <progress value="80" max="100"></progress>
+        </div>
+        <div>
+            <p>Meter</p>
+            <meter value="0.8">80%</meter>
+        </div>
+    </div>
+
+    <a href="#" onclick="window.scrollTo(0, 0);" id="scroll-link">Go to Top</a>
+
+    <p><a href="purushothama@gmail.com">Send me an email</a></p>
+
+</body>
+</html>
